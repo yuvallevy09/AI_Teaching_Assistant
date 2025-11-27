@@ -43,6 +43,17 @@ API runs on `http://localhost:8000`.
 
 Never commit real secrets. The `.gitignore` excludes `.env*` by default.
 
+### Frontend Auth (NextAuth)
+
+- Set in `frontend/.env.local`:
+
+```
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=change-me-in-prod
+```
+
+- Demo login: any email, password `demo123` (stubbed Credentials provider).
+
 ## Scripts
 
 Frontend:
