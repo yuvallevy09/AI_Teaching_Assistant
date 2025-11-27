@@ -2,7 +2,7 @@
 
 import "./globals.css";
 import type { ReactNode } from "react";
-import { SessionProvider } from "@/src/components/providers/SessionProvider";
+import { SessionProvider } from "@/components/providers/SessionProvider";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

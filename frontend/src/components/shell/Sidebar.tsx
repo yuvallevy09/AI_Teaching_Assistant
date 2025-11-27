@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { cn } from "@/src/lib/cn";
-import { useAppStore } from "@/src/store/useAppStore";
+import { cn } from "@/lib/cn";
+import { useAppStore } from "@/store/useAppStore";
 
 const mockCourses = [
   { id: "alg1-2025", title: "Algorithms 1" },

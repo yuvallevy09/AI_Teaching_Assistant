@@ -1,8 +1,8 @@
 import type { ReactNode } from "react";
-import { Topbar } from "@/src/components/shell/Topbar";
-import { Sidebar } from "@/src/components/shell/Sidebar";
+import { Topbar } from "@/components/shell/Topbar";
+import { Sidebar } from "@/components/shell/Sidebar";
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/src/lib/auth";
+import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 
 export default async function AppLayout({ children }: { children: ReactNode }) {

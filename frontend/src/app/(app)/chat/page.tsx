@@ -1,6 +1,6 @@
 "use client";
 
-import { useAppStore } from "@/src/store/useAppStore";
+import { useAppStore } from "@/store/useAppStore";
 
 export default function ChatPage() {
   const selectedCourseId = useAppStore((s) => s.selectedCourseId);
